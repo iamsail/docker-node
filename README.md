@@ -25,6 +25,21 @@
 `docker pull sail97/node:tagName`
 
 ****************
+
+### build镜像
+
+如果你不是`dockerfile`在本地`build`,直接跳过这步,也就是拉取镜像和使用本步的build镜像选取一种方法即可。
+
+推荐使用上一步的拉取镜像
+
+`docker build -t sail97/node[:tagName] .`
+
+示范
+
+`docker build -t sail97/node:mysql .`
+
+
+****************
 ### 实例容器
 
 `docker run -it  --name node node`
