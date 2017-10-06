@@ -7,7 +7,7 @@
 ## More
 
 - 本仓库每个分支对应`Docker hub`上的一个`tag`的镜像,也就是每个分支均是对node镜像`Dockerfile`的管理,根据自己的需求进行拉取
-- 在本分支`readme`会对各个分支`Dockerfile`的进行大致介绍
+- 在master分支`readme`会对各个分支`Dockerfile`的进行大致介绍
 - 具体可以进入相应分支查看更详细的`readme`
 - 也可以参考我的`Dockerfile`,定制自己的镜像
 
