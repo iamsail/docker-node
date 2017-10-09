@@ -8,6 +8,6 @@ WORKDIR $PROJECT_DIR
 RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
-RUN npm install
+#RUN npm install
 
 EXPOSE 8888
