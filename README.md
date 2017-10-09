@@ -55,7 +55,8 @@
 
 branchName|Dockerfile
 -|-
-master|最新镜像(latest)
+master|最新镜像(latest),增加了vim
+v0.0.2|增加了软件源更新,npm下载
 v0.0.1|基础node镜像
 
 
